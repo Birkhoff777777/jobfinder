@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89259FCF1AEC4E9F007B3BF4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89259FCE1AEC4E9F007B3BF4 /* DetailViewController.swift */; };
 		A44EAC991AE5947A001B8A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44EAC981AE5947A001B8A5B /* AppDelegate.swift */; };
 		A44EAC9B1AE5947A001B8A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44EAC9A1AE5947A001B8A5B /* ViewController.swift */; };
 		A44EAC9E1AE5947A001B8A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44EAC9C1AE5947A001B8A5B /* Main.storyboard */; };
 		A44EACA01AE5947A001B8A5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44EAC9F1AE5947A001B8A5B /* Images.xcassets */; };
 		A44EACA31AE5947A001B8A5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44EACA11AE5947A001B8A5B /* LaunchScreen.xib */; };
 		A44EACAF1AE5947A001B8A5B /* JobFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44EACAE1AE5947A001B8A5B /* JobFinderTests.swift */; };
+		A44EACB91AE59704001B8A5B /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44EACB81AE59704001B8A5B /* SigninViewController.swift */; };
+		A44EACBB1AE5971A001B8A5B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44EACBA1AE5971A001B8A5B /* RegisterViewController.swift */; };
+		A468266B1AEDD6BB00E5F857 /* RequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A468266A1AEDD6BB00E5F857 /* RequirementViewController.swift */; };
+		A48B03211AE5B01D00EBB1BF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B03201AE5B01D00EBB1BF /* SearchViewController.swift */; };
+		A48B03231AE5B3C800EBB1BF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B03221AE5B3C800EBB1BF /* ListViewController.swift */; };
+		A48CD2051AEAF31B0082B674 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48CD2041AEAF31B0082B674 /* ListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89259FCE1AEC4E9F007B3BF4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A44EAC931AE5947A001B8A5B /* JobFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44EAC971AE5947A001B8A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44EAC981AE5947A001B8A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		A44EACA81AE5947A001B8A5B /* JobFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44EACAD1AE5947A001B8A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44EACAE1AE5947A001B8A5B /* JobFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFinderTests.swift; sourceTree = "<group>"; };
+		A44EACB81AE59704001B8A5B /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		A44EACBA1AE5971A001B8A5B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A468266A1AEDD6BB00E5F857 /* RequirementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequirementViewController.swift; sourceTree = "<group>"; };
+		A48B03201AE5B01D00EBB1BF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A48B03221AE5B3C800EBB1BF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A48CD2041AEAF31B0082B674 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +93,17 @@
 			children = (
 				A44EAC981AE5947A001B8A5B /* AppDelegate.swift */,
 				A44EAC9A1AE5947A001B8A5B /* ViewController.swift */,
+				A44EACB81AE59704001B8A5B /* SigninViewController.swift */,
+				A44EACBA1AE5971A001B8A5B /* RegisterViewController.swift */,
+				A48B03201AE5B01D00EBB1BF /* SearchViewController.swift */,
+				A48B03221AE5B3C800EBB1BF /* ListViewController.swift */,
+				89259FCE1AEC4E9F007B3BF4 /* DetailViewController.swift */,
+				A468266A1AEDD6BB00E5F857 /* RequirementViewController.swift */,
 				A44EAC9C1AE5947A001B8A5B /* Main.storyboard */,
 				A44EAC9F1AE5947A001B8A5B /* Images.xcassets */,
 				A44EACA11AE5947A001B8A5B /* LaunchScreen.xib */,
 				A44EAC961AE5947A001B8A5B /* Supporting Files */,
+				A48CD2041AEAF31B0082B674 /* ListModel.swift */,
 			);
 			path = JobFinder;
 			sourceTree = "<group>";
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48B03211AE5B01D00EBB1BF /* SearchViewController.swift in Sources */,
 				A44EAC9B1AE5947A001B8A5B /* ViewController.swift in Sources */,
+				A48B03231AE5B3C800EBB1BF /* ListViewController.swift in Sources */,
 				A44EAC991AE5947A001B8A5B /* AppDelegate.swift in Sources */,
+				A48CD2051AEAF31B0082B674 /* ListModel.swift in Sources */,
+				A44EACB91AE59704001B8A5B /* SigninViewController.swift in Sources */,
+				A44EACBB1AE5971A001B8A5B /* RegisterViewController.swift in Sources */,
+				89259FCF1AEC4E9F007B3BF4 /* DetailViewController.swift in Sources */,
+				A468266B1AEDD6BB00E5F857 /* RequirementViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +437,7 @@
 				A44EACB41AE5947A001B8A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A44EACB51AE5947A001B8A5B /* Build configuration list for PBXNativeTarget "JobFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				A44EACB71AE5947A001B8A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
